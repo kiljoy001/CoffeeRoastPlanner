@@ -8,6 +8,7 @@ class TestEventType:
         assert EventType(2) == EventType.turning_point, 'EventType turning point failed'
         assert EventType(3) == EventType.charge_temperature, 'EventType charge temperature failed'
         assert EventType(4) == EventType.time, 'EventType time failed'
+        assert EventType(5) == EventType.fuel, 'EventType fuel failed'
 
     def test_event_type_enumerations_are_unique(self):
         obj_to_test = EventType(1)

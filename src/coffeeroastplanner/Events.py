@@ -17,7 +17,7 @@ class EventType(Enum):
 
 class Event:
     """
-    Describes and event and has an event_id.
+    Describes an event and has an event_id.
     returns an event as event_id paired with a list
     that contains the event type and data value
     """

@@ -1,31 +1,10 @@
-Package            Version
 ------------------ -------
-aiocontextvars     0.2.2
-attrs              20.3.0
-bcrypt             3.2.0
-cffi               1.14.4
-contextvars        2.4
-coverage           5.4
-icdiff             1.9.1
-immutables         0.14
-importlib-metadata 3.4.0
-iniconfig          1.1.1
-loguru             0.5.3
-mock               4.0.3
-packaging          20.8
-peewee             3.14.1
-pip                21.0.1
-pluggy             0.13.1
-pprintpp           0.4.0
-py                 1.10.0
-pycparser          2.20
-pyparsing          2.4.7
-pytest             6.2.2
-pytest-cov         2.11.1
-pytest-icdiff      0.5
-setuptools         46.1.1
-six                1.15.0
-toml               0.10.2
-typing-extensions  3.7.4.3
-wheel              0.34.2
-zipp               3.4.0
+
+peewee~=3.14.1
+loguru~=0.5.3
+bcrypt~=3.2.0
+pytest~=6.2.2
+mock~=4.0.3
+boto3~=1.17.14
+PyYAML~=5.4.1
+botocore~=1.20.14

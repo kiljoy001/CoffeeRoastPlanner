@@ -24,4 +24,12 @@ def create_session():
 
 
 def send_to_storage(file_name, bucket_name, file_hash):
-    pass
+    uploader = create_session()
+    remote_name = file_name.join(file_hash)
+    uploader.upload_file(file_name, bucket_name, remote_name)
+
+
+def get_from_storage(bucket_name, remote_file_name, local_file_name):
+    downloader = create_session()
+    retrieved_file = downloader.download_file(bucket_name, remote_file_name, local_file_name)
+    return retrieved_file
